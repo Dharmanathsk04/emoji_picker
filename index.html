@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Emoji Mood Picker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>How are you feeling today?</h1>
+    <div class="emojis">
+      <span onclick="showMood('happy')">😊</span>
+      <span onclick="showMood('sad')">😢</span>
+      <span onclick="showMood('angry')">😡</span>
+      <span onclick="showMood('love')">😍</span>
+      <span onclick="showMood('sleepy')">😴</span>
+    </div>
+    <p id="mood-message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
